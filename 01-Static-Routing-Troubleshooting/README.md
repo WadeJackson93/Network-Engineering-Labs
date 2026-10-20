@@ -76,6 +76,7 @@ Connectivity was retested after correcting the routing configuration. Final end-
 - Network topology and routing verification screenshots — available in the `Screenshots/` folder.
 - Connectivity failure, root cause, and restored connectivity evidence — available in the `Screenshots/` folder.
 - Cisco Packet Tracer project (`.pkt`) — uploaded and available below.
+
 [Download the Five-Router Packet Tracer Lab](Packet-Tracer/Five%20Router%20Static%20Routing%20Lab.pkt)
 
 ## Lab Evidence
