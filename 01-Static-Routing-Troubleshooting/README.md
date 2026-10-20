@@ -54,7 +54,7 @@ traceroute 192.168.40.2
 
 ### Root Cause
 
-A missing return route toward the 192.168.10.0/24 network prevented successful bidirectional communication.
+A missing static route toward the 192.168.40.0/24 network on Router 2 prevented successful bidirectional communication.
 
 ### Resolution
 
@@ -73,7 +73,29 @@ Connectivity was retested after correcting the routing configuration. Final end-
 
 ## Supporting Files
 
-- Cisco Packet Tracer topology (`.pkt`) — to be uploaded
-- Network topology screenshot — to be uploaded
-- Routing configurations — to be uploaded
-- Connectivity verification screenshots — to be uploaded
+- Network topology and routing verification screenshots — available in the `Screenshots/` folder.
+- Connectivity failure, root cause, and restored connectivity evidence — available in the `Screenshots/` folder.
+- Cisco Packet Tracer project (`.pkt`) — pending upload.
+
+- ## Lab Evidence
+
+### Network Topology
+![Network Topology](Screenshots/Network%20Topology.png)
+
+### Router0 Interface Configuration
+![Router0 Interface Configuration](Screenshots/Router%200%20Interface%20Configuration.png)
+
+### Static Routing Verification
+![Router0 Routing Table](Screenshots/Router%200%20Static%20Routing%20Table.png)
+
+### End-to-End Connectivity
+![Successful Ping and Traceroute](Screenshots/End%20to%20End%20Connectivity%20and%20TraceRoute.png)
+
+### Failed Connectivity
+![Failed Connectivity](Screenshots/Failed%20Connectivity.png)
+
+### Missing Static Route
+![Missing Static Route](Screenshots/Missing%20Static%20Route.png)
+
+### Restored Connectivity
+![Restored Connectivity](Screenshots/Restored%20Connectivity.png)
